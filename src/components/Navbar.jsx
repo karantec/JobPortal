@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className=" mt-2 navbar navbar-expand-lg navbar-dark bg-dark mb-5">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Job Application Sheet
+          Job and Internship Portal
         </Link>
         <div>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
