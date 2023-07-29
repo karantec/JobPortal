@@ -14,9 +14,6 @@ const Navbar = () => {
               <Link className="btn btn-success fw-bold btn-sm" to="/">
                 See Jobs
               </Link>
-              <Link className="btn btn-success fw-bold btn-sm mx-3" to="https://lets-code-51ud.vercel.app/">
-                 Homepage
-              </Link>
             </li>
           </ul>
         </div>
