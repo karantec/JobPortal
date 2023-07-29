@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
 
-    <nav className=" mt-2 navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav className=" mt-2 navbar navbar-expand-lg navbar-dark bg-primary mb-5">
       <div className="container">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand fw-bold " to="/">
           Job and Internship Portal
         </Link>
         <div>
@@ -13,6 +13,9 @@ const Navbar = () => {
             <li className="nav-item mt-1">
               <Link className="btn btn-success fw-bold btn-sm" to="/">
                 See Jobs
+              </Link>
+              <Link className="btn btn-success fw-bold btn-sm mx-3" to="https://lets-code-51ud.vercel.app/">
+                 Homepage
               </Link>
             </li>
           </ul>
