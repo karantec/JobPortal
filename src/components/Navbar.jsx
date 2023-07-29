@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
 
     <nav className=" mt-2 navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-      <div className="container">
-        <Link className="navbar-brand fw-bold " to="/">
+      <div className="container-md">
+        <Link className="navbar-brand fw-bold mb-0 h1 " to="/">
           Job and Internship Portal
         </Link>
         <div>
