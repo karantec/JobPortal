@@ -40,11 +40,7 @@ const Home = () => {
   //   }
   // };
   return (
-
-
-    <div>
-
-      <table className="table">
+      <table className="table table-bordered align-middle">
       <thead>
       <tr>
       <th scope="col">Id</th>
@@ -63,13 +59,13 @@ const Home = () => {
       <td>{item.Role}</td>
       <td>{item.Experience}</td>
       <td>{item.Location}</td>
-      <a href={item.Apply}><td className="btn btn-primary rounded-pill">Apply</td></a>
+      <a href={item.Apply}><button type="button" className="btn btn-primary btn-small mt-3 mb-2">Apply</button></a>
     </tr> 
     ))}
   </tbody>
 </table>
     
-    </div>
+
   );
 };
 
